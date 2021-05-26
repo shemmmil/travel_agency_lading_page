@@ -1,15 +1,15 @@
-import React from "react";
 import styled from "styled-components";
+import { Slider } from "../../components";
 
 const Layout = styled.main`
   display: flex;
   padding-top: 2rem;
   padding-left: 4rem;
+  padding-right: 4rem;
 `;
 const Content = styled.section`
   flex-basis: 50%;
 `;
-const Slider = styled.section``;
 const Header = styled.header``;
 const LogoLayout = styled.p`
   background-color: black;
@@ -137,7 +137,7 @@ export const Main = () => {
           </ListItem>
         </List>
       </Content>
-      <Slider></Slider>
+      <Slider />
     </Layout>
   );
 };
